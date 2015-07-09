@@ -1,5 +1,5 @@
 function bootstrap() {
- var mainView = new MainView();
- $("body").append(mainView.el); 
- return mainView;
+  // instantiate your view object and append it's HTML to the DOM.
+ // make sure to return your instantiated view object.
+ // this is not what you'd do in a real backbone project, just needed for testing
 }
