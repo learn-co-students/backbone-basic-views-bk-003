@@ -1,4 +1,5 @@
-function run() {
-  var mainView = new MainView();
-  $("body").append(mainView.el);
+function bootstrap() {
+ var mainView = new MainView();
+ $("body").append(mainView.el); 
+ return mainView;
 }
