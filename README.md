@@ -1,4 +1,3 @@
-
 # Intro to Backbone - Views
 
 ## Overview
