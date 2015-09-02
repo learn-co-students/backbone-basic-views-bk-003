@@ -1,4 +1,5 @@
 app = {};
+
 function bootstrap() {
   // instantiate your view object here
 
