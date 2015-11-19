@@ -7,4 +7,10 @@ function bootstrap() {
   // where the name is mainView
 
   // and append your view object's HTML to the body tag
+
+  var view = new MainView();
+
+  app.mainView = view;
+
+  $("body").append(view.el);
 }
