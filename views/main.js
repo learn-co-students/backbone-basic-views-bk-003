@@ -13,3 +13,15 @@
 //      <h1>blake</h1>
 //    - it should return the instance of the class
 
+MainView = Backbone.View.extend({
+
+initialize : function(){
+	this.render();
+},
+
+render : function() {
+	var cools = "<h1>blake</h1>"
+	this.$el.html(cools);
+}
+})
+
