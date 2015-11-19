@@ -13,3 +13,27 @@
 //      <h1>blake</h1>
 //    - it should return the instance of the class
 
+
+var MainView = Backbone.View.extend({
+
+  // tagName: "div",
+
+  // className: "document-row",
+
+  // events: {
+  //   "click .icon":          "open",
+  //   "click .button.edit":   "openEditDialog",
+  //   "click .button.delete": "destroy"
+  // },
+
+  initialize: function() {
+    // this.listenTo(this.model, "change", this.render);
+    this.render();
+  },
+
+  render: function() {
+  	var html = '<h1>blake</h1>';
+  	this.$el.html(html);
+  }
+
+});
