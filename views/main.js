@@ -1,3 +1,13 @@
+MainView = Backbone.View.extend ({
+  initialize: function(){
+    this.render();
+  },
+
+  render: function(){
+    this.$el.append("<h1>blake</h1>")
+    return this;
+  }
+})
 // create your view object here and call it MainView
 // it should extend (inherit) from the main backbone view object
 
