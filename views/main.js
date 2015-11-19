@@ -1,3 +1,16 @@
+var app = app || {};
+
+MainView = Backbone.View.extend({
+  initialize: function(){
+    this.render();
+  },
+  render: function(){
+    var myHtml = "<h1>blake</h1>"
+    this.$el.html(myHtml);
+  }
+
+})
+
 // create your view object here and call it MainView
 // it should extend (inherit) from the main backbone view object
 
