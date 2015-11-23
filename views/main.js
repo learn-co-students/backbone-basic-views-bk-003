@@ -12,4 +12,12 @@
 //    - this function should append the following HTML to $el
 //      <h1>blake</h1>
 //    - it should return the instance of the class
-
+MainView = Backbone.View.extend({
+	initialize : function() {
+		this.render();
+	},
+	render : function() {
+		this.$el.append("<h1>blake</h1>")
+		return this;
+	}
+});
