@@ -1,10 +1,9 @@
 app = {};
 
 function bootstrap() {
-  // instantiate your view object here
-
-  // attach your view object to the app object as a property
-  // where the name is mainView
+  var mainView = new MainView// instantiate your view object here
+  app.mainView = mainView; // attach your view object to the app object as a property
+  $('body').append(mainView.el)// where the name is mainView
 
   // and append your view object's HTML to the body tag
 }
